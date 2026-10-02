@@ -107,6 +107,9 @@ Connect a Telegram bot directly to OpenDots with the CopilotKit Channels Telegra
 In a private chat, every message is eligible. In groups, the bot responds when it is mentioned or when a user replies to one of its messages. The same Dot, tools, permissions, memory, and Intelligence conversation flow are used as web and Slack.
 
 See [Telegram setup](docs/SETUP.md#telegram) to configure the bot token, allowlist, selected Dot, and optional webhook mode.
+### Inbox and Watchers
+
+OpenDots includes a small proactive layer on top of scheduled work. The Inbox collects completed and failed task outcomes and watcher triggers in one place. Watchers monitor public HTTP(S) URLs and queue a normal task in an existing conversation when content changes.
 
 ### Slack
 
